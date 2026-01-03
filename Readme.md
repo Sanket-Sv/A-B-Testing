@@ -1,18 +1,15 @@
-# 🧪 A/B Test Analysis & Experimentation Insights
+#  A/B Test Analysis & Experimentation Insights
 
 ## 📘 Overview
 This project focuses on **A/B Testing and Experimentation Analysis** to evaluate the impact of design or campaign changes on user behavior and performance metrics.  
 Using statistical hypothesis testing, we determine whether a **variant (B)** performs significantly better than the **control (A)** group.
 
----
 
 ## 🎯 Objective
 To apply A/B testing methods and evaluate if observed differences between two groups are **statistically significant**, providing data-driven insights for decision-making.
 
 Example Use Case:
 > Analyzing two marketing campaign versions to see which achieves a higher click-through rate (CTR) or conversion rate.
-
----
 
 ## 🧭 Project Workflow
 1. **Data Collection** – Load dataset containing campaign/group data.  
@@ -25,8 +22,6 @@ Example Use Case:
 6. **Result Interpretation** – Evaluate test statistics and p-values.  
 7. **Conclusion & Business Insights** – Provide recommendations based on outcomes.
 
----
-
 ## 📊 Example Dataset
 | Column | Description |
 |---------|-------------|
@@ -38,16 +33,12 @@ Example Use Case:
 | `Conversions` | Purchases or sign-ups |
 | `CTR` | Click-through rate (Clicks / Impressions) |
 
----
-
 ## 🧮 Statistical Methods
 - **Normality Check** → Shapiro-Wilk test  
 - **Variance Check** → Levene’s test  
 - **Significance Testing** →  
   - Independent t-test (parametric)  
   - Mann-Whitney U test (non-parametric)  
-
----
 
 ## 🧠 Tools & Libraries
 - `pandas` – Data manipulation  
@@ -56,7 +47,7 @@ Example Use Case:
 - `scipy.stats` – Statistical hypothesis testing  
 - `jupyter` – Interactive notebook analysis
 
----
+
 
 ## ⚙️ Installation
 Clone the repository and install dependencies:
